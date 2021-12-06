@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background: antiquewhite;
+            width: 80%;
+            margin: 10%;
+            text-align: center;
+        }
+        button{
+            background-color: olivedrab;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Stephen's Haiku Generator</h1>
+<h2>Enter a word, separating syllables with a dash (-)</h2>
+<form>
+    <label>Enter a word: </label>
+    <input type="text" required name="word" maxlength="30" id="word">
+    <input type="submit" name="Add Word">
+</form><br>
+<button>Generate!</button>
+<div id="poem">
+<p id="line1"></p>
+<p id="line2"></p>
+<p id="line3"></p></div>
+<br><br><br><br><br><br><br><br><br>
+
+    <h3>Haiku:</h3>
+    <p>
+        1.  a Japanese poem of seventeen syllables, in three lines of five, seven, and five,
+        traditionally evoking images of the natural world.
+    </p>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+</body>
+</html>
